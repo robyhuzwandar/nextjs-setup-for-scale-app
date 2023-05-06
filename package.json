@@ -17,6 +17,18 @@
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "^5.3.10",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
+  },  
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "engines": {
+    "node": ">=18.16.0",
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.19.1"
   }
 }
