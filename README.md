@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Code Base
+
+I use Next Js 13 and add some crucial things, I try to create this project for Scalable Architecture:
+
+1. `.nvmrc` - Will tell other uses of the project which version of Node is used
+2. `.npmrc` - Will tell other users of the project which package manager is used
+3. ESLint
+4. Prettier
+5. Git Hooks with Husky
+6. Debugging - launch.json
+7. Git commit message rule - commit conventional
 
 ## Getting Started
 
