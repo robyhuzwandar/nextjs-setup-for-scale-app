@@ -1,16 +1,28 @@
 'use client';
+
+import { Button } from '@/src/components/styles/Button';
+import { useRouter } from 'next/navigation';
 import styled from 'styled-components';
 
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
 `;
 
-export default function Home() {
+const Welcoming = () => {
+  const route = useRouter();
+
+  const gotoDeliverDetails = () => {
+    route.push('delivery-details');
+  };
+
   return (
-    <main>
-      <Title>Hello Word</Title>
-    </main>
+    <Container>
+      <Button onClick={gotoDeliverDetails}>Go to delivery details</Button>
+    </Container>
   );
-}
+};
+
+export default Welcoming;
